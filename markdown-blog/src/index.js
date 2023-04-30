@@ -7,6 +7,7 @@ import 'typeface-montserrat'
 import 'typeface-hind-guntur'
 import 'fontsource-cormorant-infant'
 import Home from "./pages/home"
+import About from './pages/About'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Router>
       <Routes>
         <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/about' element={<About/>}/>
       </Routes>
     </Router>
 

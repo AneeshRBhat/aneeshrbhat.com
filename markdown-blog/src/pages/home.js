@@ -7,6 +7,7 @@ const Home = () => {
     <div>
         <Layout>
             <div>
+                <h1 className="text-center text-5xl mt-5 mb-0 font-sans font-black">All Posts</h1>
                 <PostList/>
             </div>
         </Layout>

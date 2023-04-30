@@ -48,19 +48,23 @@ const getPost = () => {
                     const metadata = parseMetadata(lines, metadataIndices)
                     const content = parseContent(lines, metadataIndices)
 
+                    const date = new Date(metadata.date).getTime()/1000
+                    console.log(date)
                     post = {
-                        id: i + 1,
+                        id: date,
                         title: metadata.title? metadata.title : "Title not found",
                         author: metadata.author? metadata.author : "author not found",
                         date: metadata.date? metadata.date : "Date not found",
                         content: content? content : "Content not found",
 
                     }
-
                     postlist.push(post)  
-                    
+
                     if (i === files.length - 1) {
-                        let data = JSON.stringify(postlist)
+                        let sortedList = postlist.sort((a,b) => {
+                            return a.id < b.id? 1 : -1
+                        })
+                        let data = JSON.stringify(sortedList)
                         fs.writeFileSync("src/posts.json", data)
                     }
                 })

@@ -30,11 +30,11 @@ const Post = () => {
     return (
         <div>
             <Layout>
-                <div className='flex flex-col justify-left items-center mx-auto my-8  p-4'>
+                <div className='w-[60%] mx-auto my-8 p-4'>
                 <h1 className='text-5xl font-sans font-bold my-4'>{fetchedPost.title}</h1>
                 <small className='text-left font-serif'>Published on {fetchedPost.date}</small>
                 <h4 className='font-serif text-lg'>{fetchedPost.author}</h4>
-                <hr/>
+                <hr className='border-slate-400'/>
                     <Markdown children={fetchedPost.content} className='text-slate-900 font-blog my-4 prose lg:prose-lg md:prose-md sm:prose-sm prose-h3:text-justify'/>
                 </div>
             </Layout> 

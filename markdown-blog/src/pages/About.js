@@ -4,7 +4,6 @@ import Markdown from 'react-markdown';
 import Layout from '../components/layout'
 
 const About = () => {
-    console.log(aboutText)
     return (
         <div>
             <Layout>

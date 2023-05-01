@@ -3,7 +3,13 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '100ch',
+             // add required value here
+          }
+        } },
       colors: {
         'french-pass': {
           '50': '#eff6ff',
@@ -22,8 +28,9 @@ module.exports = {
     },
 
     fontFamily: {
-      sans: ['Montserrat', 'sans-serif', 'Hind Guntur'],
+      sans: ['Montserrat', 'sans-serif', ],
       serif: ['Cormant Infant'],
+      blog: ['Hind Guntur']
 
     }
     

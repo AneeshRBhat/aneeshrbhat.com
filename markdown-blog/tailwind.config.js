@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  tailwindConfig: './styles/tailwind.config.js',
   theme: {
     extend: {
       typography: {
@@ -24,7 +25,10 @@ module.exports = {
           '900': '#203e88',
           '950': '#182853',
       },
-    }
+    },
+    screens: {
+      'xs': '425px',
+    },
     },
 
     fontFamily: {
@@ -35,6 +39,7 @@ module.exports = {
     }
     
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [require('@tailwindcss/typography'), require('prettier-plugin-tailwindcss')]
 }
+
 

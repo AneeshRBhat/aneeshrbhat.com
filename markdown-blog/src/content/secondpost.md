@@ -2,6 +2,7 @@
 title: My Second post
 author: Aneesh Bhat
 date: May 1, 2023
+thumbnail: /images/dog.jpg
 ---
 
 ### Welcome to my Blog

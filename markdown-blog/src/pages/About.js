@@ -7,8 +7,8 @@ const About = () => {
     return (
         <div>
             <Layout>
-                <div className='m-auto w-[40%] mt-6 p-4'>
-                    <Markdown className='prose'>
+                <div className='m-auto w-[85%] md:w-[60%] lg:w-[50%] mt-6 p-4'>
+                    <Markdown className='prose prose-h1:text-center prose-h1:text-4xl md:prose-h1:text-5xl lg:prose-h1:text-5xl prose-p:text-md md:prose-p:text-lg lg:prose-p:text-lg '>
                         {aboutText[0].content}
                     </Markdown>
                 </div>

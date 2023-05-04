@@ -7,26 +7,27 @@ import { Link } from 'react-router-dom';
 
 const PostList = () => {
     return (
-        <div className='mt-0 p-10 '>
+        <div className='mt-0 p-8 '>
             {postlist.length &&
                     postlist.map((post,i) => {
                         let firstFifty = post.content.split(' ').slice(0, 50).join(' ') + "..."
                         return (
-                        <Link to={`/post/${post.id}`}>
-                            <div className='border-[1px] border-slate-900 mt-2 mb-4 p-4 w-[40%] mx-auto  selection:bg-slate-600 selection:text-slate-100 hover:shadow-md hover:shadow-slate-500'>
-                                <h1 className='text-2xl font-sans font-semibold'>
+                            <div className='my-10 border-b-2 px-8 py-8 w-[90%] md:w-[60%] lg:w-[50%] mx-auto  selection:bg-slate-600 selection:text-slate-100'>
+                            {post.thumbnail && (
+                                <Link to={`/post/${post.id}`}><img src={post.thumbnail} alt="No thumbnail" className='md:w-[80%] lg:w-[80%] mx-auto mb-4'/></Link>
+                            )}
+                                <h1 className='text-2xl md:text-3xl lg:text-4xl font-sans font-bold'>
                                     <Link className='hover:underline' to={`/post/${post.id}`}>
                                         {post.title}
                                     </Link>
                                     
                                 </h1>
-                                <small className=''>Published on {post.date} by {post.author}</small>
-                                <hr className='border-slate-900'/>
-                                <Markdown className='prose font-blog mt-4' rehypePlugins={[rehypeRaw]}>
+                                <small className='text-xs font-blog md:text-sm lg:text-md'>Published on <i>{post.date}</i> by <b>{post.author}</b></small>
+                                <hr className='border-slate-900 hidden'/>
+                                <Markdown className='prose font-blog mt-4 hidden lg:inline-block md:inline-block lg:prose-p:text-lg md:prose-p:text-lg' rehypePlugins={[rehypeRaw]}>
                                     {firstFifty}
                                 </Markdown>
                             </div>
-                        </Link>
                         )
     
             }

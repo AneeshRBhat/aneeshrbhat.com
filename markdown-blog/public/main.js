@@ -57,6 +57,7 @@ const getPost = () => {
                         author: metadata.author? metadata.author : "author not found",
                         date: metadata.date? metadata.date : "Date not found",
                         content: content? content : "Content not found",
+                        thumbnail: metadata.thumbnail? metadata.thumbnail : null
 
                     }
                     postlist.push(post)  

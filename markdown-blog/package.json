@@ -14,7 +14,9 @@
     "react-scripts": "5.0.1",
     "rehype-raw": "^6.1.1",
     "typeface-hind-guntur": "^1.1.13",
+    "typeface-lato": "^1.1.13",
     "typeface-montserrat": "^1.1.13",
+    "typeface-roboto": "^1.1.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

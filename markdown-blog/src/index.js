@@ -4,8 +4,8 @@ import './index.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import 'typeface-montserrat'
-import 'typeface-hind-guntur'
 import 'fontsource-cormorant-infant'
+import 'typeface-lato'
 import Home from "./pages/home"
 import About from './pages/About'
 import Post from './pages/post';

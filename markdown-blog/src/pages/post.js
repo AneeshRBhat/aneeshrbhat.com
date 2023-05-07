@@ -17,6 +17,7 @@ const Post = () => {
             fetchedPost.author = post.author? post.author : "Post author not found"
             fetchedPost.date = post.date? post.date : "Post date not found"
             fetchedPost.content = post.content? post.content : "Post content not found"
+            fetchedPost.thumbnail = post.thumbnail? post.thumbnail: null;
             isValid = true
         }
     })
@@ -25,17 +26,16 @@ const Post = () => {
         return <Navigate to='/404'/>
     }
 
-    console.log(fetchedPost)
-
     return (
         <div>
             <Layout>
-                <div className='w-[60%] mx-auto my-8 p-4'>
-                <h1 className='text-5xl font-sans font-bold my-4'>{fetchedPost.title}</h1>
-                <small className='text-left font-serif'>Published on {fetchedPost.date}</small>
-                <h4 className='font-serif text-lg'>{fetchedPost.author}</h4>
-                <hr className='border-gray-400'/>
-                    <Markdown children={fetchedPost.content} className='text-gray-900 font-blog my-4 prose lg:prose-lg md:prose-md sm:prose-sm prose-h3:text-justify'/>
+                <div className='w-[90%] md:w-[70%] lg:w-[60%] mx-auto my-8 p-4'>
+                <img src={fetchedPost.thumbnail} className='mx-auto w-[100%] my-16' />
+                <h1 className='text-6xl text-center font-sans font-black mt-4 mb-2'>{fetchedPost.title}</h1>
+                <small className='text-center text-[1rem] font-sans block mx-auto'>Published on {fetchedPost.date}</small>
+                <h4 className='text-center font-sans font-semibold text-[1rem]'>{fetchedPost.author}</h4>
+                <hr className='border-gray-400 my-10'/>
+                    <Markdown children={fetchedPost.content} className='text-gray-900 font-blog my-4 prose prose-lg'/>
                 </div>
             </Layout> 
         </div>

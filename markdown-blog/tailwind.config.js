@@ -34,7 +34,7 @@ module.exports = {
     fontFamily: {
       sans: ['Montserrat', 'sans-serif', ],
       serif: ['Cormant Infant'],
-      blog: ['Hind Guntur']
+      blog: ['Lato']
 
     }
     

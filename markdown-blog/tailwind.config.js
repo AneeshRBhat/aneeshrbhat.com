@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+const heropatterns = require("tailwindcss-hero-patterns/src/patterns");
+
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   tailwindConfig: './styles/tailwind.config.js',
   theme: {
+    heroPatterns: {
+      topography: heropatterns.topography,},
+    heroPatternsOpacities: ['40', '30', '50', '60'],
     extend: {
       typography: {
         DEFAULT: {
@@ -39,7 +45,9 @@ module.exports = {
     }
     
   },
-  plugins: [require('@tailwindcss/typography'), require('prettier-plugin-tailwindcss')]
+  plugins: [require('@tailwindcss/typography'), 
+            require('prettier-plugin-tailwindcss'),
+            require('tailwindcss-hero-patterns')]
 }
 
 

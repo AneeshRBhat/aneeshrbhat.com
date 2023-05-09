@@ -8,7 +8,7 @@ const Home = () => {
     <div>
         
         <Layout>
-            <div className="lg:w-[60%] md:w-[60%] w-[80%] px-4 mx-auto my-8">
+            <div className="lg:w-[60%] md:w-[60%] w-[80%] px-4 mx-auto my-16">
 
                     <div className= "lg:text-xl text-lg font-[400] text-center font-serif italic text-gray-900 border-l-4  border-gray-900 lg:p-4 lg:m-2 p-2 m-2">
                     <blockquote>

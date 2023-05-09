@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom';
 
 const PostList = () => {
     return (
-        <div className='mt-0 p-8 '>
+        <div className='mt-0 p-8 flex flex-col gap-8'>
             {postlist.length &&
                     postlist.map((post,i) => {
                         let firstFifty = post.content.split(' ').slice(0, 50).join(' ') + "..."
                         return (
-                            <div className='my-10 border-b-2 px-8 py-8 w-[90%] md:w-[60%] lg:w-[50%] mx-auto  selection:bg-slate-600 selection:text-slate-100'>
+                            <div className='border-b-2 p-8 w-[90%] md:w-[60%] lg:w-[50%] mx-auto  selection:bg-slate-600 selection:text-slate-100'>
                             {post.thumbnail && (
                                 <Link to={`/post/${post.id}`}><img src={post.thumbnail} alt="No thumbnail" className='md:w-[50%] lg:w-[50%] mx-auto mb-4'/></Link>
                             )}

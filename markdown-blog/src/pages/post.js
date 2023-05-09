@@ -29,13 +29,13 @@ const Post = () => {
     return (
         <div>
             <Layout>
-                <div className='w-[90%] md:w-[70%] lg:w-[60%] mx-auto my-8 p-4'>
-                <img src={fetchedPost.thumbnail} className='mx-auto w-[100%] my-16' />
-                <h1 className='text-6xl text-center font-sans font-black mt-4 mb-2'>{fetchedPost.title}</h1>
+                <div className='w-[90%] md:w-[70%] lg:w-[60%] mx-auto my-8 p-4 selection:bg-blue-300 selection:text-blue-950'>
+                <h1 className='text-4xl text-center font-sans font-black'>{fetchedPost.title}</h1>
+                <img src={fetchedPost.thumbnail} className='mx-auto lg:w-[70%] w-[100%] my-8' />
                 <small className='text-center text-[1rem] font-sans block mx-auto'>Published on {fetchedPost.date}</small>
                 <h4 className='text-center font-sans font-semibold text-[1rem]'>{fetchedPost.author}</h4>
                 <hr className='border-gray-400 my-10'/>
-                    <Markdown children={fetchedPost.content} className='text-gray-900 font-blog my-4 prose prose-lg'/>
+                    <Markdown skipHtml='false' children={fetchedPost.content} className='text-gray-900 font-blog my-4 prose prose-p:text-lg prose-img:mx-auto'/>
                 </div>
             </Layout> 
         </div>

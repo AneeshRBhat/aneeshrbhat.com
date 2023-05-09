@@ -1,13 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-const Navbar = () => {
+import { Link } from 'react-router-dom';
+
+const MobileNav = () => {
     return (
-            <div className='font-sans font-bold lg:text-lg flex-auto text-lg lg:flex flex-row px-2 text-gray-50 h-fit  hidden justify-end'>
+            <div>
+                <div className='mobile-menu bg-blue-500 flex flex-col font-sans font-bold items-center gap-4 p-8 text-blue-950 '>
                     <Link className='w-[30%] p-2 text-center hover:underline' to="/">Home</Link>
                     <Link className='w-[30%]  p-2 text-center hover:underline' to="/about">About</Link>
                     <Link className='w-[30%]  p-2 text-center hover:underline' to="/blog">Blog</Link>
-            </div>
-    );
+                </div>
+            </div>    );
 };
 
-export default Navbar;
+export default MobileNav;

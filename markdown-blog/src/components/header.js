@@ -11,9 +11,22 @@ import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Header = () => {
     const [menuClicked, isMenuClicked] = useState(false)
+    const [menuHeight, setMenuHeight] = useState(0);
+
     const hamClickHandler = () => {
         isMenuClicked(!menuClicked)
     }
+
+    
+    const menuRef = React.useRef(null);
+
+    React.useEffect(() => {
+        setMenuHeight(menuRef.current.scrollHeight);
+    }, []);
+
+    React.useEffect(() => {
+        setMenuHeight(menuClicked ? menuRef.current.scrollHeight : 0);
+    }, [menuClicked]);
 
     return(
         <div>
@@ -24,7 +37,10 @@ const Header = () => {
                     <path fillRule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clipRule="evenodd" />
                 </svg>
             </div>
-            <div id="menu" className={`w-full ${menuClicked? 'block h-max' : 'hidden'}`}>
+            <div id="menu"
+                ref={menuRef}
+                className="overflow-hidden transition-all duration-500 ease-in-out"
+                style={{ height: `${menuHeight}px` }}>
                 <div className='mobile-menu bg-blue-500 flex flex-col font-sans font-bold items-center gap-4 p-8 text-blue-950 '>
                     <Link className='w-[30%] p-2 text-center hover:underline' to="/">Home</Link>
                     <Link className='w-[30%]  p-2 text-center hover:underline' to="/about">About</Link>

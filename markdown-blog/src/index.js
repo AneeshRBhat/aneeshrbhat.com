@@ -12,6 +12,7 @@ import Post from './pages/post';
 import NotFound from './pages/notFound';
 import Blog from './pages/blog';
 
+//This is it
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

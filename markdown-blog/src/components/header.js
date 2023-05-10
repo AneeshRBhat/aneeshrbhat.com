@@ -4,8 +4,8 @@ import Navbar from "./navbar";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faBook, faHome, faAddressCard, faNewspaper } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faGithub, } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -41,11 +41,22 @@ const Header = () => {
                 ref={menuRef}
                 className="overflow-hidden transition-all duration-500 ease-in-out"
                 style={{ height: `${menuHeight}px` }}>
-                <div className='mobile-menu bg-blue-500 flex flex-col font-sans font-bold items-center gap-4 p-8 text-blue-950 '>
-                    <Link className='w-[30%] p-2 text-center hover:underline' to="/">Home</Link>
-                    <Link className='w-[30%]  p-2 text-center hover:underline' to="/about">About</Link>
-                    <Link className='w-[30%]  p-2 text-center hover:underline' to="/blog">Blog</Link>
-
+                <div className='mobile-menu bg-blue-500 flex flex-col font-sans font-bold items-center gap-4 p-8 text-blue-950'>
+                    <div className="flex flex-col gap-12 items-center w-fit">
+                        <Link className='w-fit text-center hover:underline flex items-center' to="/">
+                            <FontAwesomeIcon className='w-fit px-2 text-blue-950  text-xl' icon={faHome}/>
+                            <span>Home</span>
+                        </Link>
+                        <Link className='w-fit text-center hover:underline flex items-center ' to="/about">
+                            <FontAwesomeIcon className='w-fit px-2 text-blue-950  text-xl' icon={faAddressCard}/>
+                            <span>About</span>
+                        </Link>
+                        <Link className='w-fit text-center flex items-center hover:underline' to="/blog">
+                            <FontAwesomeIcon className='w-fit px-2 text-blue-950  text-xl' icon={faNewspaper}/>
+                            <span>Blog</span>
+                        </Link>
+                    </div>
+                    
                     <div className='flex gap-10 w-fit mt-8'>
                         <Link to="https://twitter.com/AneeshRBhat24"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faTwitter}/></Link>
                         <Link to="https://github.com/AneeshRBhat"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faGithub} /></Link>

@@ -14,7 +14,7 @@ const PostList = () => {
                         return (
                             <div className='border-b-2 p-8 w-[90%] md:w-[60%] lg:w-[50%] mx-auto  selection:bg-slate-600 selection:text-slate-100'>
                             {post.thumbnail && (
-                                <Link to={`/post/${post.id}`}><img src={post.thumbnail} alt="No thumbnail" className='md:w-[50%] lg:w-[50%] mx-auto mb-4'/></Link>
+                                <Link to={`/post/${post.id}`}><img src={post.thumbnail} alt="No thumbnail" className='md:w-[80%] lg:w-[50%] mx-auto mb-4'/></Link>
                             )}
                                 <h1 className='text-2xl md:text-3xl lg:text-4xl font-sans font-bold'>
                                     <Link className='hover:underline' to={`/post/${post.id}`}>

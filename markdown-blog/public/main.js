@@ -93,8 +93,10 @@ const getPages = () => {
                       content: contents
                   }
                   pagelist.push(page)  
-                      let data = JSON.stringify(pagelist)
-                      fs.writeFileSync("src/pages.json", data)
+                      
+                  if (i === files.length - 1) {
+                  let data = JSON.stringify(pagelist)
+                      fs.writeFileSync("src/pages.json", data)}
               })
 
 

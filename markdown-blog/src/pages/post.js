@@ -31,7 +31,7 @@ const Post = () => {
             <Layout>
                 <div className='w-[90%] md:w-[70%] lg:w-[60%] mx-auto my-8 p-4 selection:bg-blue-300 selection:text-blue-950'>
                 <h1 className='text-4xl text-center font-sans font-black'>{fetchedPost.title}</h1>
-                <img src={fetchedPost.thumbnail} className='mx-auto lg:w-[70%] w-[100%] my-8' />
+                <img src={fetchedPost.thumbnail} className='mx-auto lg:w-[70%] w-[100%] my-8' alt="nothing to see here" />
                 <small className='text-center text-[1rem] font-sans block mx-auto'>Published on {fetchedPost.date}</small>
                 <h4 className='text-center font-sans font-semibold text-[1rem]'>{fetchedPost.author}</h4>
                 <hr className='border-gray-400 my-10'/>

@@ -22,7 +22,7 @@ const Home = () => {
                         </blockquote>
 
                 </div>
-                <Markdown className="prose-h1:text-center prose-h1:text-3xl prose-h1:font-sans font-blog font-[400] prose-h1:font-black text-gray-900 prose mt-6 prose-p:text-lg">
+                <Markdown className="prose-h1:text-center prose-h1:text-3xl prose-h1:font-sans font-blog font-[400] prose-h1:font-black text-gray-900 prose mt-6 prose-p:text-lg prose-a:no-underline prose-a:text-blue-500 hover:prose-a:underline">
                     {HomeText[1].content}
                 </Markdown>
             </div>

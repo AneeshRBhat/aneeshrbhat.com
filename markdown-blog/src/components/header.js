@@ -30,7 +30,7 @@ const Header = () => {
 
     return(
         <div>
-            <div className="px-10 lg:px-20 md:px-16 bg-blue-950 heropattern-topography-yellow-500/30 flex justify-around gap-4 py-12 items-center ">
+            <div className="px-8 lg:px-20 md:px-16 bg-blue-950 heropattern-topography-yellow-500/30 flex justify-around gap-4 py-12 items-center ">
                 <Logo/>
                 <Navbar className="hidder"/>
                 <svg onClick={hamClickHandler} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#F8FAFC" className="sm:w-10 w-8 block text-slate-50 lg:hidden ">

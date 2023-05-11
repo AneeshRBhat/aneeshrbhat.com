@@ -1,7 +1,7 @@
 ---
 title: Probabilistic Existentialism
 author: Aneesh Bhat
-date: November 20, 2022
+date: 2022-11-20T00:00:00.000Z
 thumbnail: /images/probability.jpg
 ---
 ## How Your Life is a Miracle

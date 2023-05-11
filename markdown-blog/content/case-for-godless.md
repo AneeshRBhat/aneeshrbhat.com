@@ -1,7 +1,7 @@
 ---
 title: A Case For Being Godless
 author: Aneesh R. Bhat
-date: February 17, 2023
+date: 2023-02-17T00:00:00.000Z
 thumbnail: /images/godless.jpg
 ---
 God; The man up above; The omnipresent, omniscient, omnipotent entity that has been a part of human culture possibly since it's beginning. God is perhaps the most important thing in some people’s lives, so much so that they base major life decisions off of the word of God and sometimes dedicate their whole life in service of god. I’m sure those of you reading this believe or in some point in time used to believe in God. You can deduce from the title that I don’t. I don’t know if I ever have. 

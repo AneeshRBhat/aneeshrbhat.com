@@ -7,6 +7,34 @@ const dirPagePath = path.join(__dirname, "../src/pages/content/")
 let postlist = []
 let pagelist = []
 
+const months = {
+    "01": "January",
+    "02": "February",
+    "03": "March",
+    "04": "April",
+    "05": "May",
+    "06": "June",
+    "07": "July",
+    "08": "August",
+    "09": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+}
+
+const formatDate = (date) => {
+    const datetimeArray = date.split("T")
+    const dateArray = datetimeArray[0].split("-")
+    const timeArray = datetimeArray[1].split(":")
+    const month = dateArray[1]
+    const monthName = months[dateArray[1]]
+    const day = dateArray[2]
+    const year = dateArray[0]
+    const time = `${timeArray[0]}:${timeArray[1]}`
+
+    return {"month": month, "monthName": monthName, "day": day, "year": year, "time": time}
+}
+
 const getPost = () => {
       fs.readdir(dirPath, (err, files) => {
         if(err){
@@ -49,13 +77,17 @@ const getPost = () => {
                     const metadataIndices = lines.reduce(getMetadataIndices, [])
                     const metadata = parseMetadata(lines, metadataIndices)
                     const content = parseContent(lines, metadataIndices)
-
-                    const date = new Date(metadata.date).getTime()/1000
+                    const parsedDate = metadata.date ? formatDate(metadata.date) : new Date()
+                    const publishedDate = `${parsedDate["monthName"]} ${parsedDate["day"]}, ${parsedDate["year"]}`
+                    const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`
+                    const date = new Date(datestring)
+                    const timestamp = date.getTime() / 1000
                     post = {
-                        id: date,
+                        id: timestamp,
                         title: metadata.title? metadata.title : "Title not found",
                         author: metadata.author? metadata.author : "author not found",
-                        date: metadata.date? metadata.date : "Date not found",
+                        date: publishedDate ? publishedDate : "No date given",
+                        time: parsedDate["time"],
                         content: content? content : "Content not found",
                         thumbnail: metadata.thumbnail? metadata.thumbnail : null
 

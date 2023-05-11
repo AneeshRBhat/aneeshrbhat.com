@@ -23,7 +23,6 @@ const PostList = () => {
                                     
                                 </h1>
                                 <small className='text-xs font-blog md:text-sm lg:text-md'>Published on <i>{post.date}</i> by <b>{post.author}</b></small>
-                                <hr className='border-slate-900 hidden'/>
                                 <Markdown className='prose font-blog mt-4 hidden lg:inline-block md:inline-block lg:prose-p:text-lg md:prose-p:text-lg' rehypePlugins={[rehypeRaw]}>
                                     {firstFifty}
                                 </Markdown>

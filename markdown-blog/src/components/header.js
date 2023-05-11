@@ -58,9 +58,9 @@ const Header = () => {
                     </div>
                     
                     <div className='flex gap-10 w-fit mt-8'>
-                        <Link to="https://twitter.com/AneeshRBhat24"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faTwitter}/></Link>
-                        <Link to="https://github.com/AneeshRBhat"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faGithub} /></Link>
-                        <Link to="https://aneeshworkspace.notion.site/Reading-List-Public-Access-54ef27983511428e88e5a9ceeeca57ed"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faBook}/></Link>
+                        <a href="https://twitter.com/AneeshRBhat24"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faTwitter}/></a>
+                        <a href="https://github.com/AneeshRBhat"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faGithub} /></a>
+                        <a href="https://aneeshworkspace.notion.site/Reading-List-Public-Access-54ef27983511428e88e5a9ceeeca57ed"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faBook}/></a>
 
                     </div>
                 </div>            

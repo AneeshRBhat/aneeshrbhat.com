@@ -41,7 +41,7 @@ const Header = () => {
                 ref={menuRef}
                 className="overflow-hidden transition-all duration-500 ease-in-out"
                 style={{ height: `${menuHeight}px` }}>
-                <div className='mobile-menu bg-blue-500 flex flex-col font-sans font-bold items-center gap-4 p-8 text-blue-950'>
+                <div className='mobile-menu bg-gray-200 flex flex-col font-sans font-bold items-center gap-4 p-8 text-blue-950'>
                     <div className="flex flex-col gap-12 items-center w-fit">
                         <Link className='w-fit text-center hover:underline flex items-center' to="/">
                             <FontAwesomeIcon className='w-fit px-2 text-blue-950  text-xl' icon={faHome}/>
@@ -58,9 +58,9 @@ const Header = () => {
                     </div>
                     
                     <div className='flex gap-10 w-fit mt-8'>
-                        <a href="https://twitter.com/AneeshRBhat24"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faTwitter}/></a>
-                        <a href="https://github.com/AneeshRBhat"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faGithub} /></a>
-                        <a href="https://aneeshworkspace.notion.site/Reading-List-Public-Access-54ef27983511428e88e5a9ceeeca57ed"><FontAwesomeIcon className='w-fit p-2 text-gray-50  text-2xl' icon={faBook}/></a>
+                        <a className="flex" href="https://twitter.com/AneeshRBhat24"><FontAwesomeIcon className='w-fit p-2 text-blue-950  text-2xl' icon={faTwitter}/></a>
+                        <a className="flex" href="https://github.com/AneeshRBhat"><FontAwesomeIcon className='w-fit p-2 text-blue-950  text-2xl' icon={faGithub} /></a>
+                        <a className="flex" href="https://aneeshworkspace.notion.site/Reading-List-Public-Access-54ef27983511428e88e5a9ceeeca57ed"><FontAwesomeIcon className='w-fit p-2 text-blue-950  text-2xl' icon={faBook}/></a>
 
                     </div>
                 </div>            

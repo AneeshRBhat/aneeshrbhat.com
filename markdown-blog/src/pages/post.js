@@ -35,7 +35,7 @@ const Post = () => {
                 <small className='text-center text-[1rem] font-sans block mx-auto'>Published on {fetchedPost.date}</small>
                 <h4 className='text-center font-sans font-semibold text-[1rem]'>{fetchedPost.author}</h4>
                 <hr className='border-gray-400 my-10'/>
-                    <Markdown skipHtml='false' children={fetchedPost.content} className='text-gray-900 font-blog my-4 prose prose-p:text-lg prose-img:mx-auto'/>
+                    <Markdown skipHtml='false' children={fetchedPost.content} className='text-gray-900 font-blog my-4 prose prose-p:text-lg prose-blockquote:w-[70%] prose-blockquote:mx-auto prose-img:mx-auto'/>
                 </div>
             </Layout> 
         </div>

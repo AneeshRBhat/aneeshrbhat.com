@@ -6,8 +6,11 @@ const Blog = () => {
     return (
         <div>
             <Layout>
-                <h1 className="text-center text-3xl mt-6 font-sans font-black">All Posts</h1>
-                <PostList/> 
+                <div className='selection:bg-blue-300 selection:text-blue-950'>
+                    <h1 className="text-center text-3xl mt-6 font-sans font-black">All Posts</h1>
+                    <PostList/> 
+                </div>
+               
             </Layout>
            
         </div>

@@ -8,7 +8,7 @@ const About = () => {
         <div>
             <Layout>
 
-                <div className='md:w-[60%] lg:w-[50%] w-[85%] mx-auto my-16'>
+                <div className='md:w-[60%] lg:w-[50%] w-[85%] mx-auto my-16 selection:text-blue-950 selection:bg-blue-300'>
                     <div className=''>
                             <img alt="My face" src='/images/aboutme.png' className='mx-auto w-[90%] lg:w-[50%]'/>
                     </div>

@@ -12,7 +12,7 @@ const PostList = () => {
                     postlist.map((post,i) => {
                         let firstFifty = post.content.split(' ').slice(0, 50).join(' ') + "..."
                         return (
-                            <div className='border-b-2 p-8 w-[90%] md:w-[60%] lg:w-[50%] mx-auto  selection:bg-slate-600 selection:text-slate-100'>
+                            <div className='border-b-2 p-8 w-[90%] md:w-[60%] lg:w-[50%] mx-auto'>
                             {post.thumbnail && (
                                 <Link to={`/post/${post.id}`}><img src={post.thumbnail} alt="No thumbnail" className='md:w-[80%] lg:w-[50%] mx-auto mb-4'/></Link>
                             )}

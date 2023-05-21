@@ -6,23 +6,23 @@ thumbnail: /images/eric-rothermel-foko4dpxamq-unsplash.jpg
 ---
 This week certainly has been interesting. 
 
-# College admissions. 
+## College admissions. 
 
 I got into a college. Yay! I learnt two things during the admission process. i) Merit gets you things, more often than not and ii) never trust online payment portals that are set up by government authorities, cause they’ll cause you a lot of pain. 
 
-# Duress under distress.
+## Duress under distress.
 
 This ties into my conception of god that I’ve been thinking about. When the situation is not under your control, the best you can do is control what you can: yourself. This pertains to my post: [If you’re drowning, make a lot of noise](https://aneeshrbhat.netlify.app/post/1684300740).
 
-# Why I’ll start eating home cooked meals more.
+## Why I’ll start eating home cooked meals more.
 
 I got an upset stomach for a few days after I ate something from a restaurant. Now, I have a weird thing with food where if it causes some kind of problem in my body, I stop eating it altogether because I fear a psychosomatic response. That’s why I don’t eat pineapples anymore after I had a bad experience with it. Home cooked meals never do that to me, so I’m going to stick with home cooked meals more.
 
-# I put down a book, I picked up a book
+## I put down a book, I picked up a book
 
 I was reading the Hitchhiker’s Guide to the Galaxy trilogy (in five parts) but at a certain point during the third book, it got too difficult to get through. It was probably because I got disconnected from the book or the book became boring. But I put it down and have started a new one. [Quarter Share](https://www.goodreads.com/en/book/show/2334538) by Nathan Lowell. It’s been good so far. It’s a small book, by the looks of it. I expect to be done with it in about 3-4 days and I’ll continue with the rest of the series, if I like the first book. 
 
-# My morning routine has gone to the dogs, and I hope to start it again. 
+## My morning routine has gone to the dogs, and I hope to start it again. 
 
 I consistently wrote first thing in the morning and meditated later for about a month. But in the last week, that has not been happening. It was the ill health, the college admissions and now some other shit. But yeah, I expect to start again next week and keep it up.
 

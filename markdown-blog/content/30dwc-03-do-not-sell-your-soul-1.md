@@ -1,10 +1,9 @@
 ---
-title: 30DWC 03
+title: Do not sell your soul.
 author: Aneesh R. Bhat
 date: 2023-05-17T05:18:45.870Z
 thumbnail: /images/carl-heyerdahl-ke0nc8-58mq-unsplash.jpg
 ---
-# Do not sell your soul.
 ## I repeat do not sell your soul.
 
 But first what does selling your soul even mean? It means doing things for others’ approval. You may say you don't do that, but let's do a bit of inventory shall we? An inventory of your motivations.

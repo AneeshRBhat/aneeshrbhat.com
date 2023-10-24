@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Layout from '../components/layout';
 import { Navigate, useParams } from 'react-router-dom';
 import postlist from '../posts.json'
@@ -6,6 +6,13 @@ import Markdown from 'react-markdown'
 
 const Post = () => {
     const validId = parseInt(useParams().id)
+
+    useEffect(() => {
+        // Scrolls page to the top when the post is rendered.
+        window.scrollTo(0,0);
+    }, [validId]);
+
+
     if(!validId) {
         return <Navigate to='/404'/>
     }
@@ -22,9 +29,9 @@ const Post = () => {
         }
     })
 
-    if(!isValid){
-        return <Navigate to='/404'/>
-    }
+    if(!isValid){return <Navigate to='/404'/>}
+    
+
 
     return (
         <div>

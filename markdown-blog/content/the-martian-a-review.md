@@ -30,7 +30,7 @@ But the light-heartedness and energy ever present in the movie is accentuated no
 
 The more uplifting pieces in the movie’s soundtrack play during the most hopeful moments of the movie. Particularly, David Bowie’s *Starman*, which plays during a montage of the Taiyang Shen being prepared for a resupply mission to the Hermes while Mark modifies the rover for his long journey ahead, with instruction by the smart folk back home. It’s truly magical, enough to make you shed a tear. Not in the least because the song is amazing, but also because of the significance of the scene. The crew breaks the news to their families, that they’re potentially going to be spending an additional 500 days in space, with their lives at constant jeopardy. Yet, they laugh and they express their love for each other. Because, as the lyric from the song goes,
 
-> ‘He’s told us not to blow it, ‘cause he knows it’s all worthwhile.’  
+> He’s told us not to blow it, ‘cause he knows it’s all worthwhile.  
 
 Two nations, although working together to, in part, serve their own self-interests, but working together nonetheless to preserve the spirit of space exploration. 
 And in the very end, as if to surmise the entire movie, Gloria Gaynor’s I will survive plays, as the credits roll. The song itself is about heartbreak and abandonment by a loved one, but in Mark Watney’s case it describes his will, with which he did survive on the unforgiving planet and returned home safely.

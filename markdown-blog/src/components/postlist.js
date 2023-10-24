@@ -1,7 +1,6 @@
 import React from 'react';
 import postlist from '../posts.json'
 import Markdown from 'react-markdown'
-import rehypeRaw from "rehype-raw";
 import { Link } from 'react-router-dom';
 
 
@@ -25,7 +24,7 @@ const PostList = () => {
                                         </Link>
                                     </h1>
                                     <small className='text-xs font-blog md:text-sm lg:text-sm text-slate-400'>Published on <i>{post.date}</i> by <b>{post.author}</b></small>
-                                    <Markdown className='prose my-auto font-blog mt-4 hidden lg:inline-block md:inline-block
+                                    <Markdown className='prose my-auto font-blog mt-4 lg:inline-block md:inline-block
                                      prose-h2:m-0 prose-h2:text-base lg:prose-h2:text-lg prose-h2:font-semibold lg:prose-p:text-base prose-p:text-sm prose-p:my-2'>
                                         {firstTwenty}
                                     </Markdown>

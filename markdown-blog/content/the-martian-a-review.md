@@ -1,7 +1,7 @@
 ---
 title: "The Martian: A Review"
 author: Aneesh R. Bhat
-date: 2023-10-24T17:18:16.694Z
+date: 2023-10-24T17:29:49.710Z
 thumbnail: /images/themartian.jpg
 ---
 It’s a hot afternoon in the summer of 2016. I’m visiting my village with my family. Everyone’s lazing around, with not much else to do. I see that my uncle has an interesting new device I’d never seen before. It was a Kindle, the electronic reader. By that time (I was probably eleven or twelve years old), I had been taken by the magical voodoo devices known to man as books. I loved reading. I asked my uncle for the kindle and began fiddling with it, figuring out how everything works. I came across some obscure sci-fi titles that my uncle read (and some of which I would also read in a few years), and then came across a title that seemed familiar: The Martian. The cool movie I’d seen about the astronaut getting stuck on Mars had a book? I had to check it out.

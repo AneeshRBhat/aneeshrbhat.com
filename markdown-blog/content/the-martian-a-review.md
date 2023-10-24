@@ -1,5 +1,5 @@
 ---
-title: "The Martian: A Review"
+title: The Martian - A Review
 author: Aneesh R. Bhat
 date: 2023-10-24T17:29:49.710Z
 thumbnail: /images/themartian.jpg

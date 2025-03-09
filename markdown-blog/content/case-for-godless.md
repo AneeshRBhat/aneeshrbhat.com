@@ -40,7 +40,7 @@ So basically we’ve got Donald Trump from The Apprentice. But instead of saying
 
 You would assume that a being that literally created the entire universe with a single utterance would be more secure with themselves so as to not need a bunch of ephemeral, dumb apes to acknowledge their presence. But no, God needs us to submit to him and he needs us to sing praises of him.
 
-It’s often said, God created us in his image. But it’s perhaps the other way around. We created God in our image. That’s why He looks like a human in our imagination and behaves just like a human. I am reminded of that family guy bit where a man about to be bitten by a snake says, “If Jesus exists, I will not die”. But then the snake says, “If snake Jesus exists, he will die”. Then, a nearby tree says, “If tree Jesus exists, both of them will die”. Then a flash of lightning snaps a the tree in half and kills the man and the snake and the tree says, “Thank you tree Jesus”. We’re so utterly lacking in our imagination that our God looks just like us. Hinduism is better, in that we have gods of all shapes, sizes and species. 
+It’s often said, God created us in his image. But it’s perhaps the other way around. We created God in our image. That’s why He looks like a human in our imagination and behaves just like a human. We’re so utterly lacking in our imagination that our God looks just like us.
 
 ## ‘God did it’ is garbage answer to the fundamental question
 
